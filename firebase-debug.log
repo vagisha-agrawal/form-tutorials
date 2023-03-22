@@ -1,0 +1,254 @@
+[debug] [2023-03-22T19:18:57.013Z] ----------------------------------------------------------------------
+[debug] [2023-03-22T19:18:57.015Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\WELCOME\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-03-22T19:18:57.016Z] CLI Version:   11.25.1
+[debug] [2023-03-22T19:18:57.016Z] Platform:      win32
+[debug] [2023-03-22T19:18:57.016Z] Node Version:  v16.13.2
+[debug] [2023-03-22T19:18:57.017Z] Time:          Thu Mar 23 2023 00:48:57 GMT+0530 (India Standard Time)
+[debug] [2023-03-22T19:18:57.017Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-22T19:18:57.093Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-22T19:18:57.094Z] > authorizing via signed-in user (agrawalnidhi101@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\antd-form
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-03-22T19:19:12.086Z] Using project from CLI flag: basic-form-tutorial
+[debug] [2023-03-22T19:19:12.091Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/basic-form-tutorial [none]
+[debug] [2023-03-22T19:19:12.649Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/basic-form-tutorial 200
+[debug] [2023-03-22T19:19:12.649Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/basic-form-tutorial {"projectId":"basic-form-tutorial","projectNumber":"305316924379","displayName":"tutorials","name":"projects/basic-form-tutorial","resources":{"hostingSite":"basic-form-tutorial","realtimeDatabaseInstance":"basic-form-tutorial-default-rtdb"},"state":"ACTIVE","etag":"1_8114f66c-42a6-4d0c-9fa3-d12202f78fa8"}
+[info] i  Using project basic-form-tutorial (tutorials) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-03-22T19:19:32.273Z] ----------------------------------------------------------------------
+[debug] [2023-03-22T19:19:32.275Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\WELCOME\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-03-22T19:19:32.275Z] CLI Version:   11.25.1
+[debug] [2023-03-22T19:19:32.276Z] Platform:      win32
+[debug] [2023-03-22T19:19:32.276Z] Node Version:  v16.13.2
+[debug] [2023-03-22T19:19:32.277Z] Time:          Thu Mar 23 2023 00:49:32 GMT+0530 (India Standard Time)
+[debug] [2023-03-22T19:19:32.277Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-22T19:19:32.354Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-22T19:19:32.354Z] > authorizing via signed-in user (agrawalnidhi101@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\antd-form
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-03-22T19:20:20.380Z] Using project from CLI flag: basic-form-tutorial
+[debug] [2023-03-22T19:20:20.382Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/basic-form-tutorial [none]
+[debug] [2023-03-22T19:20:21.096Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/basic-form-tutorial 200
+[debug] [2023-03-22T19:20:21.097Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/basic-form-tutorial {"projectId":"basic-form-tutorial","projectNumber":"305316924379","displayName":"tutorials","name":"projects/basic-form-tutorial","resources":{"hostingSite":"basic-form-tutorial","realtimeDatabaseInstance":"basic-form-tutorial-default-rtdb"},"state":"ACTIVE","etag":"1_8114f66c-42a6-4d0c-9fa3-d12202f78fa8"}
+[info] i  Using project basic-form-tutorial (tutorials) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-03-22T19:21:10.418Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-03-22T19:21:10.630Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-03-22T19:21:10.630Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.18.0","browserURL":"https://www.gstatic.com/firebasejs/9.18.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.18.0/firebase.tgz"},"live":{"version":"9.18","browserURL":"https://www.gstatic.com/firebasejs/live/9.18/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.18/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.18.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.18.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.18.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.18.0/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.18.0/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.18.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.18.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.18.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.18.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.18.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.18.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.18.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.18.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.18.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.18.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.18.0/firebase-firestore.memory.js"}}
+[info] i  Skipping write of build/index.html 
+[info] 
+[info] i  Detected a .git folder at E:\antd-form 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=220890907&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-03-22T19:22:48.599Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-03-22T19:22:48.599Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-03-22T19:22:49.097Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-03-22T19:22:49.098Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-03-22T19:22:49.109Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-03-22T19:22:49.614Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-03-22T19:22:49.615Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"vagisha-agrawal","id":55729857,"node_id":"MDQ6VXNlcjU1NzI5ODU3","avatar_url":"https://avatars.githubusercontent.com/u/55729857?v=4","gravatar_id":"","url":"https://api.github.com/users/vagisha-agrawal","html_url":"https://github.com/vagisha-agrawal","followers_url":"https://api.github.com/users/vagisha-agrawal/followers","following_url":"https://api.github.com/users/vagisha-agrawal/following{/other_user}","gists_url":"https://api.github.com/users/vagisha-agrawal/gists{/gist_id}","starred_url":"https://api.github.com/users/vagisha-agrawal/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vagisha-agrawal/subscriptions","organizations_url":"https://api.github.com/users/vagisha-agrawal/orgs","repos_url":"https://api.github.com/users/vagisha-agrawal/repos","events_url":"https://api.github.com/users/vagisha-agrawal/events{/privacy}","received_events_url":"https://api.github.com/users/vagisha-agrawal/received_events","type":"User","site_admin":false,"name":"Vagisha Agrawal","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":6,"public_gists":0,"followers":0,"following":0,"created_at":"2019-09-24T04:59:20Z","updated_at":"2023-03-07T06:07:54Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":1020,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as vagisha-agrawal 
+[info] 
+[debug] [2023-03-22T19:23:20.159Z] ----------------------------------------------------------------------
+[debug] [2023-03-22T19:23:20.161Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\WELCOME\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-03-22T19:23:20.161Z] CLI Version:   11.25.1
+[debug] [2023-03-22T19:23:20.161Z] Platform:      win32
+[debug] [2023-03-22T19:23:20.161Z] Node Version:  v16.13.2
+[debug] [2023-03-22T19:23:20.162Z] Time:          Thu Mar 23 2023 00:53:20 GMT+0530 (India Standard Time)
+[debug] [2023-03-22T19:23:20.163Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-22T19:23:20.239Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-22T19:23:20.240Z] > authorizing via signed-in user (agrawalnidhi101@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\antd-form
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-03-22T19:23:37.132Z] Using project from CLI flag: basic-form-tutorial
+[debug] [2023-03-22T19:23:37.134Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/basic-form-tutorial [none]
+[debug] [2023-03-22T19:23:37.701Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/basic-form-tutorial 200
+[debug] [2023-03-22T19:23:37.701Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/basic-form-tutorial {"projectId":"basic-form-tutorial","projectNumber":"305316924379","displayName":"tutorials","name":"projects/basic-form-tutorial","resources":{"hostingSite":"basic-form-tutorial","realtimeDatabaseInstance":"basic-form-tutorial-default-rtdb"},"state":"ACTIVE","etag":"1_8114f66c-42a6-4d0c-9fa3-d12202f78fa8"}
+[info] i  Using project basic-form-tutorial (tutorials) 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Detected a .git folder at E:\antd-form 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=539712375&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-03-22T19:23:38.572Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-03-22T19:23:38.572Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-03-22T19:23:39.121Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-03-22T19:23:39.121Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-03-22T19:23:39.127Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-03-22T19:23:39.690Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-03-22T19:23:39.690Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"vagisha-agrawal","id":55729857,"node_id":"MDQ6VXNlcjU1NzI5ODU3","avatar_url":"https://avatars.githubusercontent.com/u/55729857?v=4","gravatar_id":"","url":"https://api.github.com/users/vagisha-agrawal","html_url":"https://github.com/vagisha-agrawal","followers_url":"https://api.github.com/users/vagisha-agrawal/followers","following_url":"https://api.github.com/users/vagisha-agrawal/following{/other_user}","gists_url":"https://api.github.com/users/vagisha-agrawal/gists{/gist_id}","starred_url":"https://api.github.com/users/vagisha-agrawal/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vagisha-agrawal/subscriptions","organizations_url":"https://api.github.com/users/vagisha-agrawal/orgs","repos_url":"https://api.github.com/users/vagisha-agrawal/repos","events_url":"https://api.github.com/users/vagisha-agrawal/events{/privacy}","received_events_url":"https://api.github.com/users/vagisha-agrawal/received_events","type":"User","site_admin":false,"name":"Vagisha Agrawal","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":6,"public_gists":0,"followers":0,"following":0,"created_at":"2019-09-24T04:59:20Z","updated_at":"2023-03-07T06:07:54Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":1020,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as vagisha-agrawal 
+[info] 
+[debug] [2023-03-22T19:24:06.845Z] >>> [apiv2][query] GET https://api.github.com/repos/tutorials/actions/secrets/public-key type=owner
+[debug] [2023-03-22T19:24:07.245Z] <<< [apiv2][status] GET https://api.github.com/repos/tutorials/actions/secrets/public-key 404
+[debug] [2023-03-22T19:24:07.245Z] <<< [apiv2][body] GET https://api.github.com/repos/tutorials/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-03-22T19:24:11.772Z] >>> [apiv2][query] GET https://api.github.com/repos/tutorials/actions/secrets/public-key type=owner
+[debug] [2023-03-22T19:24:12.165Z] <<< [apiv2][status] GET https://api.github.com/repos/tutorials/actions/secrets/public-key 404
+[debug] [2023-03-22T19:24:12.165Z] <<< [apiv2][body] GET https://api.github.com/repos/tutorials/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-03-22T19:24:14.116Z] >>> [apiv2][query] GET https://api.github.com/repos/tutorials/actions/secrets/public-key type=owner
+[debug] [2023-03-22T19:24:14.484Z] <<< [apiv2][status] GET https://api.github.com/repos/tutorials/actions/secrets/public-key 404
+[debug] [2023-03-22T19:24:14.484Z] <<< [apiv2][body] GET https://api.github.com/repos/tutorials/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-03-22T19:24:34.436Z] >>> [apiv2][query] GET https://api.github.com/repos/tutorials/actions/secrets/public-key type=owner
+[debug] [2023-03-22T19:24:34.834Z] <<< [apiv2][status] GET https://api.github.com/repos/tutorials/actions/secrets/public-key 404
+[debug] [2023-03-22T19:24:34.835Z] <<< [apiv2][body] GET https://api.github.com/repos/tutorials/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-03-22T19:24:44.116Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-03-22T19:24:44.489Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-03-22T19:24:44.489Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-03-22T19:24:44.956Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-03-22T19:24:45.252Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-03-22T19:24:45.297Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-03-22T19:24:45.297Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-03-22T19:24:45.492Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-03-22T19:24:45.563Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-03-22T19:24:45.564Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-03-22T19:24:45.715Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-03-22T19:24:45.817Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-03-22T19:24:45.818Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-03-22T19:24:46.054Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-03-22T19:24:46.054Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-03-22T19:24:54.515Z] >>> [apiv2][query] GET https://api.github.com/repos/user/tutorials/actions/secrets/public-key type=owner
+[debug] [2023-03-22T19:24:54.929Z] <<< [apiv2][status] GET https://api.github.com/repos/user/tutorials/actions/secrets/public-key 404
+[debug] [2023-03-22T19:24:54.929Z] <<< [apiv2][body] GET https://api.github.com/repos/user/tutorials/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-03-22T19:25:15.113Z] ----------------------------------------------------------------------
+[debug] [2023-03-22T19:25:15.115Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\WELCOME\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-03-22T19:25:15.116Z] CLI Version:   11.25.1
+[debug] [2023-03-22T19:25:15.116Z] Platform:      win32
+[debug] [2023-03-22T19:25:15.116Z] Node Version:  v16.13.2
+[debug] [2023-03-22T19:25:15.117Z] Time:          Thu Mar 23 2023 00:55:15 GMT+0530 (India Standard Time)
+[debug] [2023-03-22T19:25:15.117Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-22T19:25:15.197Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-22T19:25:15.197Z] > authorizing via signed-in user (agrawalnidhi101@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\antd-form
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-03-22T19:25:23.640Z] Using project from CLI flag: basic-form-tutorial
+[debug] [2023-03-22T19:25:23.642Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/basic-form-tutorial [none]
+[debug] [2023-03-22T19:25:24.418Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/basic-form-tutorial 200
+[debug] [2023-03-22T19:25:24.418Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/basic-form-tutorial {"projectId":"basic-form-tutorial","projectNumber":"305316924379","displayName":"tutorials","name":"projects/basic-form-tutorial","resources":{"hostingSite":"basic-form-tutorial","realtimeDatabaseInstance":"basic-form-tutorial-default-rtdb"},"state":"ACTIVE","etag":"1_8114f66c-42a6-4d0c-9fa3-d12202f78fa8"}
+[info] i  Using project basic-form-tutorial (tutorials) 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Detected a .git folder at E:\antd-form 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=874249462&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-03-22T19:25:25.878Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-03-22T19:25:25.878Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-03-22T19:25:26.312Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-03-22T19:25:26.313Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-03-22T19:25:26.320Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-03-22T19:25:26.795Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-03-22T19:25:26.795Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"vagisha-agrawal","id":55729857,"node_id":"MDQ6VXNlcjU1NzI5ODU3","avatar_url":"https://avatars.githubusercontent.com/u/55729857?v=4","gravatar_id":"","url":"https://api.github.com/users/vagisha-agrawal","html_url":"https://github.com/vagisha-agrawal","followers_url":"https://api.github.com/users/vagisha-agrawal/followers","following_url":"https://api.github.com/users/vagisha-agrawal/following{/other_user}","gists_url":"https://api.github.com/users/vagisha-agrawal/gists{/gist_id}","starred_url":"https://api.github.com/users/vagisha-agrawal/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vagisha-agrawal/subscriptions","organizations_url":"https://api.github.com/users/vagisha-agrawal/orgs","repos_url":"https://api.github.com/users/vagisha-agrawal/repos","events_url":"https://api.github.com/users/vagisha-agrawal/events{/privacy}","received_events_url":"https://api.github.com/users/vagisha-agrawal/received_events","type":"User","site_admin":false,"name":"Vagisha Agrawal","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":6,"public_gists":0,"followers":0,"following":0,"created_at":"2019-09-24T04:59:20Z","updated_at":"2023-03-07T06:07:54Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":1020,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as vagisha-agrawal 
+[info] 
